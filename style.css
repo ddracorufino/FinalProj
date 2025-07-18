@@ -1,0 +1,38 @@
+/* css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #A0522D, #FFDEAD);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
